@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+package-lock.json
+.yarn.lock
+
+# Tailwind and build files
+*.css
+!src/**/*.css # Keep source CSS files
+public/build/
+dist/
+
+# Editor and system files
+.vscode/
+.idea/
+*.log
+*.DS_Store
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*
+
+# Cache & Temp files
+.npm/
+.pnp/
+.pnp.js
+.cache/
+.next/
+out/
+
+# Misc
+*.bak
+Thumbs.db
