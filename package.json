@@ -1,22 +1,18 @@
 {
-    "name": "vite-tailwind-stimulus-starter",
-    "private": true,
-    "version": "0.0.0",
-    "type": "module",
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "preview": "vite preview"
-    },
-    "devDependencies": {
-        "autoprefixer": "^10.4.16",
-        "postcss": "^8.4.32",
-        "tailwindcss": "^3.4.0",
-        "vite": "^5.0.10",
-        "vite-plugin-stimulus-hmr": "^3.0.0"
-    },
-    "dependencies": {
-        "@hotwired/stimulus": "^3.2.2",
-        "stimulus-controller-resolver": "^3.1.0"
-    }
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "cross-env TAILWIND_MODE=watch vite",
+    "build": "cross-env TAILWIND_MODE=build vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.5",
+    "vitawind": "^2.0.0",
+    "vite": "^2.4.4"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "name": "valentines-parallax-website"
 }

@@ -1,2 +1,1 @@
-import './style.css'
-import './controllers'
+import './index.css'
