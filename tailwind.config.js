@@ -15,6 +15,9 @@ module.exports = {
         'lavendar': '#F8E9E9',
         'cherry': '#FFB3C1',
       },
+      fontSize: {
+        '9xl': "10rem",
+      }
     },
   },
   plugins: [],
