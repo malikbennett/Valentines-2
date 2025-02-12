@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: pacifico;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/Pacifico-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Quicksand;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+
 @layer base {
   h1 {
     font-family: pacifico;

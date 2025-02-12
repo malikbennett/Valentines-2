@@ -15,6 +15,10 @@ module.exports = {
         'lavendar': '#F8E9E9',
         'cherry': '#FFB3C1',
       },
+      fontFamily: {
+        'pacifico': ['pacifico'],
+        'Quicksand': ['Quicksand'],
+      },
       fontSize: {
         '9xl': "10rem",
       }
