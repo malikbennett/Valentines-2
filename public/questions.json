@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "No": "1",
+            "question": "What day is my birthday?",
+            "options": [
+                "December 25",
+                "December 28",
+                "December 29"
+            ],
+            "correct": 1
+        },
+        {
+            "No": "2",
+            "question": "What was the most important moment in my relationship with Joelle?",
+            "options": [
+                "The first time we met",
+                "When we got back together",
+                "Our first argument"
+            ],
+            "correct": 0
+        },
+        {
+            "No": "3",
+            "question": "Who in my family do I feel the most protective over?",
+            "options": [
+                "My mother",
+                "My brother",
+                "My grandmother"
+            ],
+            "correct": 0
+        },
+        {
+            "No": "4",
+            "question": "What childhood experience shaped my love for programming?",
+            "options": [
+                "Making websites",
+                "Creating Roblox games",
+                "Building a school project"
+            ],
+            "correct": 1
+        },
+        {
+            "No": "5",
+            "question": "What is one of my biggest fears in life?",
+            "options": [
+                "Losing the people I love",
+                "Failing in my career",
+                "Not being understood"
+            ],
+            "correct": 0
+        },
+        {
+            "No": "6",
+            "question": "What is something I struggle with but rarely talk about?",
+            "options": [
+                "Social anxiety",
+                "Public speaking",
+                "Procrastination"
+            ],
+            "correct": 0
+        },
+        {
+            "No": "7",
+            "question": "What small thing can instantly make me feel better?",
+            "options": [
+                "Music",
+                "A hug",
+                "Gaming"
+            ],
+            "correct": 1
+        },
+        {
+            "No": "8",
+            "question": "What is a long-term goal I have?",
+            "options": [
+                "Starting my own AI company",
+                "Becoming a game developer",
+                "Moving abroad"
+            ],
+            "correct": 1
+        },
+        {
+            "No": "9",
+            "question": "If I could only keep one thing from my childhood, what would it be?",
+            "options": [
+                "My first gaming console",
+                "A handwritten letter",
+                "A childhood toy"
+            ],
+            "correct": 1
+        },
+        {
+            "No": "10",
+            "question": "What is something I never want to change about myself?",
+            "options": [
+                "My curiosity",
+                "My sense of humor",
+                "My work ethic"
+            ],
+            "correct": 0
+        }
+    ]
+}

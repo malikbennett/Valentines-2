@@ -12,7 +12,8 @@
     "vite": "^2.4.4"
   },
   "dependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "gsap": "^3.12.7"
   },
   "name": "valentines-parallax-website"
 }
