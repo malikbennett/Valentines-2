@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 feedBack.innerHTML = questionManager.getFeedback(optionBtn.value);
                 if (parseInt(optionBtn.value) === questionManager.getAnswer()) {
                     optionBtn.value = 99;
-                    nextQuestAnimation();
+                    nextQuestAnimation(optionBtn);
                 }
             };
         }
@@ -162,8 +162,25 @@ document.addEventListener("DOMContentLoaded", () => {
         optionBtns[1].style.top = `${random}%`;
     }
 
-    function nextQuestAnimation() {
+    function nextQuestAnimation(correctBtn) {
         let tl = gsap.timeline();
+        tl.to(correctBtn, {
+            backgroundColor: "#4CAF50",
+            scale: 1.05,
+            duration: 0.25,
+            ease: "power1.out",
+            onComplete: () => {
+                setTimeout(() => {
+                    gsap.to(correctBtn, {
+                        backgroundColor: "#B76E79",
+                        scale: 1,
+                        duration: 0.25,
+                        ease: "power1.in",
+                    });
+                }, 250);
+            }
+        });
+
 
         tl.to(questCard, {
             x: 4000,  // Move off-screen to the right
