@@ -1,5 +1,5 @@
 export default class QuestionManager {
-    currQuestion = 1;
+    currQuestion = 14;
     questions = [];
 
     constructor(questions, onLoadCallback) {
@@ -37,12 +37,14 @@ export default class QuestionManager {
         return this.getCurrQuestion().correct;
     }
     nextQuestion() {
-        if (this.currQuestion < this.questions.length) {
+        if (this.currQuestion <= this.questions.length) {
             this.currQuestion++;
             this.getCurrQuestion();
         }
     }
     lastQuestion() {
+        console.log(`cuurquest: ${this.currQuestion}, questamount: ${this.questions.length}`);
+        console.log((this.currQuestion) === this.questions.length);
         return this.currQuestion === this.questions.length;
     }
     getRandomQuestion() {

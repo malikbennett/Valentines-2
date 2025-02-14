@@ -189,13 +189,13 @@ document.addEventListener("DOMContentLoaded", () => {
             delay: 2,
             ease: "none",
             onComplete: () => {
-                questionManager.nextQuestion();
                 questCard.classList.toggle("hidden");
 
                 if (questionManager.lastQuestion()) {
                     gsap.set(questCard, { x: 0 }); // reset
                     loadValentines();
                 } else {
+                    questionManager.nextQuestion();
                     gsap.set(questCard, { x: -4000 }); // Instantly move off-screen left & hide
                     questCard.classList.toggle("hidden");
                     loadQuestion(); // Load next question
