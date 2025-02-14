@@ -1,5 +1,5 @@
 export default class QuestionManager {
-    currQuestion = 8;
+    currQuestion = 15;
     questions = [];
 
     constructor(questions, onLoadCallback) {
@@ -14,7 +14,6 @@ export default class QuestionManager {
             })
             .catch(error => console.error('Error loading JSON:', error));
     }
-
     getCurrQuestion() {
         if (!this.questions.length) {
             console.error('Questions are not loaded yet');
@@ -31,22 +30,21 @@ export default class QuestionManager {
     getQuestionNumber() {
         return this.getCurrQuestion().No;
     }
-
+    getFeedback(option) {
+        return this.getCurrQuestion().feedback[option];
+    }
     getAnswer() {
         return this.getCurrQuestion().correct;
     }
-
     nextQuestion() {
         if (this.currQuestion < this.questions.length) {
             this.currQuestion++;
             this.getCurrQuestion();
         }
     }
-
     lastQuestion() {
         return this.currQuestion === this.questions.length;
     }
-
     getRandomQuestion() {
         if (!this.questions.length) {
             console.error('Questions are not loaded yet');

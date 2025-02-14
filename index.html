@@ -5,165 +5,252 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Me Quiz</title>
   </head>
-  <body class="box-border min-h-screen w-full overflow-x-hidden bg-lavendar font-Quicksand">
-    <!-- Hero Section -->
-    <section class="relative z-10 flex h-screen w-full flex-col items-center justify-center">
-      <!-- Heading -->
-      <div class="relative z-30 flex grow items-center justify-center">
-        <h1
-          class="pt-20 text-center text-6xl font-bold leading-tight text-main-400 duration-200 sm:text-7xl md:text-8xl xl:pt-24 xl:text-9xl"
-          id="hero-heading"
-        >
-          Hello World
-        </h1>
-      </div>
-      <!-- Paragraph -->
-      <div class="relative z-50 flex grow items-end justify-center">
-        <p class="w-10/12 mb-2 text-center text-2xl font-extrabold text-lavendar duration-300 md:text-3xl lg:text-4xl" id="hero-p">
+  <body class="bg-main-400">
+    <!-- Hero -->
+    <section class="relative z-10 min-h-screen overflow-hidden bg-lavendar">
+      <div class="mx-auto flex min-h-screen max-w-[64rem] flex-col">
+        <!-- Heading -->
+        <div class="relative z-30 mt-48 text-center xl:mt-56">
+          <!-- Heading -->
+          <h1 class="text-6xl font-bold leading-tight text-main-400 duration-150 sm:text-7xl md:text-8xl xl:text-9xl" id="hero-heading">Hello Baby :&rpar;</h1>
+        </div>
+        <!-- Paragraph -->
+        <p class="z-50 mb-2 mt-auto text-center text-2xl font-extrabold text-lavendar duration-300 md:text-3xl lg:text-4xl" id="hero-p">
           I've created a fun little quiz for you &lt;3
         </p>
+        <!-- Floating Hearts -->
+        <picture>
+          <source srcset="/images/heart-0.webp" />
+          <img
+            loading="lazy"
+            src="/images/heart-0.png"
+            alt=""
+            class="hero-heart absolute left-[2%] top-[10%] z-30 size-20 rotate-[35deg] duration-300 lg:left-[6%] lg:top-[16%] lg:size-28 xl:left-[2%] xl:top-[5%] xl:size-32"
+          />
+        </picture>
+        <picture>
+          <source srcset="/images/heart.webp" />
+          <img
+            loading="lazy"
+            src="/images/heart.png"
+            alt=""
+            class="hero-heart absolute right-[2%] top-[10%] z-30 size-24 -rotate-[35deg] duration-300 sm:top-[12%] md:top-[14%] md:size-28 lg:top-[16%] lg:size-32 xl:top-[5%] xl:size-48"
+          />
+        </picture>
+        <picture>
+          <source srcset="/images/heart.webp" />
+          <img
+            loading="lazy"
+            src="/images/heart.png"
+            alt=""
+            class="hero-heart absolute left-[8%] top-[35%] z-30 size-16 rotate-[35deg] duration-300 sm:top-[50%] sm:size-24 lg:size-32 xl:top-[48%] xl:size-36"
+          />
+        </picture>
+        <picture>
+          <source srcset="/images/heart-0.webp" />
+          <img
+            loading="lazy"
+            src="/images/heart-0.png"
+            alt=""
+            class="hero-heart absolute right-[5%] top-[45%] z-40 size-16 -rotate-[35deg] duration-300 sm:right-[8%] sm:top-[65%] lg:size-32 xl:size-36"
+          />
+        </picture>
+        <!-- Background Layers -->
+        <picture>
+          <source srcset="/images/Hero-Layers/layer-5.webp" />
+          <img
+            id="layer-5"
+            loading="lazy"
+            src="/images/Hero-Layers/layer-5.png"
+            alt="layer-5"
+            class="min-w-screen absolute bottom-0 left-0 z-0 min-h-screen object-cover duration-100"
+          />
+        </picture>
+        <picture>
+          <source srcset="/images/Hero-Layers/layer-4.webp" />
+          <img
+            id="layer-4"
+            loading="lazy"
+            src="/images/Hero-Layers/layer-4.png"
+            alt="layer-4"
+            class="min-w-screen absolute bottom-0 left-0 z-10 min-h-screen object-cover duration-100"
+          />
+        </picture>
+        <picture>
+          <source srcset="/images/Hero-Layers/layer-3.webp" />
+          <img
+            id="layer-3"
+            loading="lazy"
+            src="/images/Hero-Layers/layer-3.png"
+            alt="layer-3"
+            class="min-w-screen absolute bottom-0 left-0 z-20 min-h-screen object-cover duration-100"
+          />
+        </picture>
+        <picture>
+          <source srcset="/images/Hero-Layers/layer-2.webp" />
+          <img
+            id="layer-2"
+            loading="lazy"
+            src="/images/Hero-Layers/layer-2.png"
+            alt="layer-2"
+            class="min-w-screen absolute bottom-0 left-0 z-30 min-h-screen object-cover duration-100"
+          />
+        </picture>
+        <picture>
+          <source srcset="/images/Hero-Layers/layer-1.webp" />
+          <img
+            id="layer-1"
+            loading="lazy"
+            src="/images/Hero-Layers/layer-1.png"
+            alt="layer-1"
+            class="min-w-screen absolute bottom-0 left-0 z-40 min-h-screen object-cover duration-100"
+          />
+        </picture>
       </div>
+    </section>
+    <!-- Wrapper -->
+    <div id="wrapper" class="relative z-30 mx-auto max-w-[64rem] bg-main-400">
+      <!-- Transition Message -->
+      <section class="flex min-h-screen items-center justify-center bg-main-400">
+        <!-- Heading -->
+        <h1 class="max-w-2xl text-center text-4xl text-lavendar md:text-6xl lg:text-7xl">This Will Be A Little Test To See How Well You Know Me :&rpar;</h1>
+      </section>
+      <!-- Questionaire -->
+      <section class="relative flex min-h-screen flex-col items-center justify-center overflow-hidden">
+        <picture class="hidden">
+          <source srcset="/images/Question-Layers/top-border.webp" />
+          <img
+            src="/images/Question-Layers/top-border.png"
+            alt=""
+            class="valentine-borders min-w-screen absolute left-0 top-0 z-40 min-h-screen object-cover"
+          />
+        </picture>
+        <div
+        id="quest-card"
+          class="flex min-h-[40vh] sm:min-h-[50vh] max-w-[90%] sm:max-w-[32rem] flex-col items-center justify-center rounded-lg bg-lavendar p-5 text-center text-main-400 shadow-2xl duration-300"
+        >
+          <!-- Question Number -->
+          <h2 class="mb-auto text-4xl font-bold">Question <span id="quest-no"></span></h2>
+          <!-- Question Prompt -->
+          <div class="flex items-center text-center">
+            <p class="mb-6 text-pretty text-2xl" id="question"></p>
+          </div>
+          <!-- Buttons -->
+          <div class="flex min-w-[75%] flex-wrap justify-center gap-4">
+            <button class="flex justify-center items-center options hover:bg-main-500 flex-shrink-0 rounded-lg bg-main-400 max-h-16 min-w-24 px-4 py-3 text-white transition-colors"></button>
+            <button class="flex justify-center items-center options hover:bg-main-500 flex-shrink-0 rounded-lg bg-main-400 max-h-16 min-w-24 px-4 py-3 text-white transition-colors"></button>
+            <button class="flex justify-center items-center options hover:bg-main-500 flex-shrink-0 rounded-lg bg-main-400 max-h-16 min-w-24 px-4 py-3 text-white transition-colors"></button>
+          </div>
+          <p class="mt-auto min-w-[65%] text-wrap text-xl font-black text-main-400 drop-shadow-sm duration-150" id="feedback">I was gonna make a score system but mi did too tiad :&lpar; so just tial & error</p>
+        </div>
+        <picture class="hidden">
+          <source srcset="/images/Question-Layers/bottom-border.webp" />
+          <img
+            src="/images/Question-Layers/bottom-border.png"
+            alt=""
+            class="valentine-borders min-w-screen absolute bottom-0 left-0 z-40 min-h-screen object-cover"
+          />
+        </picture>
+      </section>
+      <!-- Final Message -->
+      <section id="final" class="hidden min-h-screen w-full items-center justify-center">
+        <div class="mx-auto max-w-[90%] sm:max-w-[32rem] min-h-[32rem] rounded-lg bg-lavendar p-6 text-main-400 shadow-lg">
+          <h1 class="mb-6 text-center text-xl sm:text-4xl lg:mb-12">Happy Valentines Day My Baby Girl 💞💓</h1>
+          <p class="my-auto text-center text-pretty text-base max-h-[30rem] overflow-y-scroll">
+            Firstly, Im sorry this took so long 🙏, this was honestly so time consuming 😭. I hope you enjoyed this years website 💕.
+            Secondly I am so greatful to be the luckiest man on earth again, having you as my Lover & Valentine, this means alot to me,
+            I love you soo much and I cant wait to spend the rest of my life loving, caring and being there for you 💝. You are my everything
+            and I think about you everyday, thank you for being the amazing person you are and always being there for me and providing me with
+            love, support, and the feeling of security. I wish you may overcome every obsticle you face this year and every other years to come,
+            I know things can be challenging and sometimes things may feel pointless or things are targeted towards, but you have to keep trying and I
+            know you you can all things you put your mind to, you are a smart, strong, capable, and protected girl, and you will prevail in this year and
+            many more years to come. So keep trying my baby girl, I love you, and will love you forever, so please keep being the person I love, and never
+            let anyone change such an amazing person, keep being you, and thank you for being you, once again I LOVE YOUUU 💞💞😽😽😽
+          </p>
+        </div>
+      </section>
       <!-- Floating Hearts -->
+      <!-- left -->
       <picture>
-        <source srcset="/images/heart-0.webp"/>
+        <source srcset="/images/heart-0-white.webp" />
         <img
-          id="heart-0"
           loading="lazy"
-          src="/images/heart-0.png"
+          src="/images/heart-0-white.png"
           alt=""
-          class="absolute left-[2%] top-[10%] z-30 size-20 rotate-[35deg] duration-300 lg:top-[16%] lg:size-28 xl:top-[5%] xl:size-32"
+          class="trans-heart absolute left-[2%] top-[10%] z-30 size-24 rotate-[35deg] duration-300 lg:top-[16%] lg:size-32"
         />
       </picture>
+      <!-- right -->
       <picture>
-        <source srcset="/images/heart.webp"/>
+        <source srcset="/images/heart-white.webp" />
         <img
-          id="heart-1"
           loading="lazy"
-          src="/images/heart.png"
+          src="/images/heart-white.png"
           alt=""
-          class="absolute right-[2%] top-[10%] z-30 size-24 -rotate-[35deg] duration-300 sm:top-[12%] md:top-[14%] md:size-28 lg:top-[16%] lg:size-32 xl:top-[5%] xl:size-48"
+          class="trans-heart absolute right-[12%] top-[35%] z-30 size-28 -rotate-[30deg] duration-300 lg:size-32 xl:size-48"
         />
       </picture>
+      <!-- left -->
       <picture>
-        <source srcset="/images/heart.webp"/>
+        <source srcset="/images/heart-white.webp" />
         <img
-          id="heart-2"
           loading="lazy"
-          src="/images/heart.png"
+          src="/images/heart-white.png"
           alt=""
-          class="absolute left-[8%] top-[35%] z-30 size-16 rotate-[35deg] duration-300 sm:top-[50%] sm:size-24 lg:size-32 xl:top-[48%] xl:size-36"
+          class="trans-heart absolute left-[16%] top-[40%] z-30 size-20 rotate-[30deg] duration-300 sm:top-[50%] sm:size-24 lg:size-36"
         />
       </picture>
+      <!-- right -->
       <picture>
-        <source srcset="/images/heart-0.webp"/>
+        <source srcset="/images/heart-0-white.webp" />
         <img
-          id="heart-3"
           loading="lazy"
-          src="/images/heart-0.png"
+          src="/images/heart-0-white.png"
           alt=""
-          class="absolute right-[5%] top-[45%] z-40 size-16 -rotate-[35deg] duration-300 sm:right-[8%] sm:top-[65%] lg:size-32 xl:size-36"
+          class="trans-heart absolute right-[26%] top-[50%] z-30 size-16 rotate-[30deg] duration-300 sm:size-20 lg:size-36"
         />
       </picture>
-      <!-- Background Layers -->
+      <!-- left -->
       <picture>
-        <source srcset="/images/Hero-Layers/layer-5.webp"/>
+        <source srcset="/images/heart-white.webp" />
         <img
-          id="layer-5"
           loading="lazy"
-          src="/images/Hero-Layers/layer-5.png"
-          alt="layer-5"
-          class="min-w-screen absolute bottom-0 left-0 z-0 min-h-screen object-cover duration-150"
+          src="/images/heart-white.png"
+          alt=""
+          class="trans-heart absolute left-[2%] top-[60%] z-30 size-28 -rotate-[35deg] duration-300 lg:size-48"
         />
       </picture>
+      <!-- rightt -->
       <picture>
-        <source srcset="/images/Hero-Layers/layer-4.webp"/>
+        <source srcset="/images/heart-white.webp" />
         <img
-          id="layer-4"
           loading="lazy"
-          src="/images/Hero-Layers/layer-4.png"
-          alt="layer-4"
-          class="min-w-screen absolute bottom-0 left-0 z-10 min-h-screen object-cover duration-150"
+          src="/images/heart-white.png"
+          alt=""
+          class="trans-heart absolute right-[2%] top-[65%] z-30 size-28 -rotate-[35deg] duration-300 lg:size-48"
         />
       </picture>
+      <!-- left -->
       <picture>
-        <source srcset="/images/Hero-Layers/layer-3.webp"/>
+        <source srcset="/images/heart-white.webp" />
         <img
-          id="layer-3"
           loading="lazy"
-          src="/images/Hero-Layers/layer-3.png"
-          alt="layer-3"
-          class="min-w-screen absolute bottom-0 left-0 z-20 min-h-screen object-cover duration-150"
+          src="/images/heart-white.png"
+          alt=""
+          class="trans-heart absolute left-[8%] top-[90%] z-30 size-20 rotate-[35deg] duration-300 sm:size-24 lg:size-36"
         />
       </picture>
+      <!-- right -->
       <picture>
-        <source srcset="/images/Hero-Layers/layer-2.webp"/>
+        <source srcset="/images/heart-0-white.webp" />
         <img
-          id="layer-2"
           loading="lazy"
-          src="/images/Hero-Layers/layer-2.png"
-          alt="layer-2"
-          class="min-w-screen absolute bottom-0 left-0 z-30 min-h-screen object-cover duration-150"
+          src="/images/heart-0-white.png"
+          alt=""
+          class="trans-heart absolute right-[8%] top-[90%] z-40 size-20 -rotate-[35deg] duration-300 lg:size-36"
         />
       </picture>
-      <picture>
-        <source srcset="/images/Hero-Layers/layer-1.webp"/>
-        <img
-          id="layer-1"
-          loading="lazy"
-          src="/images/Hero-Layers/layer-1.png"
-          alt="layer-1"
-          class="min-w-screen absolute bottom-0 left-0 z-40 min-h-screen object-cover duration-150"
-        />
-      </picture>
-    </section>
-    <!-- Transition Message -->
-    <section class="relative z-30 flex h-screen w-full items-center justify-center bg-main-400">
-      <h1 class="max-w-2xl text-center text-4xl text-lavendar md:text-6xl lg:text-8xl">This Will Be A Little Test To See How Well You Know Me :&rpar;</h1>
-    </section>
-    <!-- Questionaire -->
-    <section class="relative z-30 flex h-screen w-full flex-col items-center justify-center gap-2 bg-main-400">
-      <picture class="hidden" id="">
-        <source srcset="/images/Valentines-Layers/top-border.webp">
-        <img src="/images/Valentines-Layers/top-border.png" alt="" class="valentine-borders min-w-screen absolute left-0 top-[50%] z-40 min-h-screen object-cover" />
-      </picture>
-      <div class="mx-auto max-w-4xl rounded-lg bg-lavendar p-6 text-main-400 shadow-lg">
-        <!-- Question Number -->
-        <h2 class="mb-4 text-center text-4xl font-bold">Question <span id="quest-no" ></span></h2>
-        <!-- Question Prompt -->
-        <p class="mb-6 text-center text-2xl" id="question"></p>
-        <!-- Buttons -->
-        <div class="flex flex-col space-y-4">
-          <button class="options hover:bg-main-500 rounded-lg bg-main-400 px-4 py-2 text-white transition-colors"></button>
-          <button class="options hover:bg-main-500 rounded-lg bg-main-400 px-4 py-2 text-white transition-colors"></button>
-          <button class="options hover:bg-main-500 rounded-lg bg-main-400 px-4 py-2 text-white transition-colors"></button>
-        </div>
-        <p class="duration-150 text-center text-main-400 text-base font-black drop-shadow-sm mt-2" id="feedback"></p>
-      </div>
-      <picture class="hidden" id="">
-        <source srcset="/images/Valentines-Layers/bottom-border.webp">
-        <img src="/images/Valentines-Layers/bottom-border.png" alt="" class="valentine-borders min-w-screen absolute bottom-[50%] left-0 z-40 min-h-screen object-cover" />
-      </picture>
-    </section>
-    <!-- Valentines Question -->
-    <section class="relative z-30 h-screen w-full flex-col items-center justify-center bg-lavendar hidden">
-      <div class="mx-auto max-w-2xl rounded-lg p-6 text-main-400">
-        <!-- Question Prompt -->
-        <h1 class="mb-6 text-center text-2xl sm:text-4xl lg:mb-12 lg:text-7xl">Will You Be My Valentines?</h1>
-        <!-- Buttons -->
-        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0">
-          <button class="min-w-16 md:w-full hover:bg-main-500 rounded-lg bg-main-400 px-4 py-2 text-white transition-colors">YESS!!!</button>
-          <button class="min-w-16 md:w-full hover:bg-main-500 rounded-lg bg-main-400 px-4 py-2 text-white transition-colors">no..???</button>
-        </div>
-      </div>
-    </section>
-    <!-- Final Message -->
-    <section class="relative z-30 flex h-screen w-full items-center justify-center bg-main-400">
-      <div class="mx-auto max-w-xl rounded-lg bg-lavendar p-6 text-main-400 shadow-lg">
-        <h1 class="mb-6 text-center text-2xl sm:text-4xl lg:mb-12">YEAAAHH!!!</h1>
-        <p class="mb-6 text-center text-2xl">Thank you for being in my life</p>
-      </div>
-    </section>
-
+    </div>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>

@@ -2,12 +2,7 @@ export default class Scroll {
     static lastScroll = 0; // For throttling
     static heroHeading = document.getElementById("hero-heading");
     static heroP = document.getElementById("hero-p");
-    static hearts = [
-        document.getElementById("heart-0"),
-        document.getElementById("heart-1"),
-        document.getElementById("heart-2"),
-        document.getElementById("heart-3"),
-    ];
+    static hearts = [...document.querySelectorAll('.hero-heart')];
     static layers = [
         document.getElementById("layer-2"),
         document.getElementById("layer-3"),
@@ -46,9 +41,9 @@ export default class Scroll {
         // Smoothly hide text elements when scrolling past 650px
         let isHidden = value > 650;
         Scroll.heroHeading.parentElement.style.opacity = isHidden ? '0' : '1';
-        Scroll.heroP.parentElement.style.opacity = isHidden ? '0' : '1';
+        Scroll.heroP.style.opacity = isHidden ? '0' : '1';
         Scroll.heroHeading.parentElement.style.visibility = isHidden ? 'hidden' : 'visible';
-        Scroll.heroP.parentElement.style.visibility = isHidden ? 'hidden' : 'visible';
+        Scroll.heroP.style.visibility = isHidden ? 'hidden' : 'visible';
     }, 16); // 16ms -> ~60fps
 
     // Static method for handling transformations

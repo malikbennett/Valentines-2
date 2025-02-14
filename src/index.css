@@ -17,6 +17,10 @@
 }
 
 @layer base {
+  * {
+    box-sizing: box-border;
+    font-family: Quicksand;
+  }
   h1 {
     font-family: pacifico;
     pointer-events: none;

@@ -8,97 +8,222 @@
                 "December 28",
                 "December 29"
             ],
-            "correct": 1
+            "correct": 1,
+            "feedback":[
+                "Suck my dick nigga",
+                "If you got that wrong i would beat you",
+                "Fuck OTTER!! 🖕"
+            ]
         },
         {
             "No": "2",
-            "question": "What was the most important moment in my relationship with Joelle?",
+            "question": "In what year did we meet?",
             "options": [
-                "The first time we met",
-                "When we got back together",
-                "Our first argument"
+                "2020",
+                "2022",
+                "2021"
             ],
-            "correct": 0
+            "correct": 2,
+            "feedback":[
+                "More dissapointed than mad",
+                "Loser 🖕",
+                "GOOD JOB!!!"
+            ]
         },
         {
             "No": "3",
-            "question": "Who in my family do I feel the most protective over?",
+            "question": "Who are my top 3",
             "options": [
-                "My mother",
-                "My brother",
-                "My grandmother"
+                "SZA, Travis Scott, Jcole",
+                "Kendrick, Travis Scott, Billie",
+                "d4vd, Kendrick, beadaboobee"
             ],
-            "correct": 0
+            "correct": 1,
+            "feedback":[
+                "Good guess but nahh",
+                "Wouldn't expect you to get this one, billie new to this list 🤷",
+                "these my nighttime artist 🎶🌃"
+            ]
         },
         {
             "No": "4",
-            "question": "What childhood experience shaped my love for programming?",
+            "question": "How tall am i?",
             "options": [
-                "Making websites",
-                "Creating Roblox games",
-                "Building a school project"
+                "6ft",
+                "5'2ft",
+                "5'4ft"
             ],
-            "correct": 1
+            "correct": 2,
+            "feedback":[
+                "I said my height not my dick size 🤭🍆💦",
+                "Ok you pushing it 🙄",
+                "Might even be 5'3ft cause i my hair out 😢"
+            ]
         },
         {
             "No": "5",
-            "question": "What is one of my biggest fears in life?",
+            "question": "What day did we officially start dating?",
             "options": [
-                "Losing the people I love",
-                "Failing in my career",
-                "Not being understood"
+                "July 21st",
+                "June 21st",
+                "July 22th"
             ],
-            "correct": 0
+            "correct": 2,
+            "feedback":[
+                "Good Try",
+                "Just Dissapointed 🧍",
+                "This is a little hard ion even know if its the first or this"
+            ]
         },
         {
             "No": "6",
-            "question": "What is something I struggle with but rarely talk about?",
+            "question": "What Basic School did I attend?",
             "options": [
-                "Social anxiety",
-                "Public speaking",
-                "Procrastination"
+                "Swallow Feild",
+                "Rosedale",
+                "Constant Spring"
             ],
-            "correct": 0
+            "correct": 1,
+            "feedback":[
+                "This might have been a bit harder for you",
+                "Pretty sure you guess but its kl",
+                "This is my Primary Skl"
+            ]
         },
         {
             "No": "7",
-            "question": "What small thing can instantly make me feel better?",
+            "question": "Whats something small you do that instantly make me feel loved?",
             "options": [
-                "Music",
-                "A hug",
-                "Gaming"
+                "Hugs & Kisses",
+                "Telling me you love me",
+                "Buying me gifts"
             ],
-            "correct": 1
+            "correct": 0,
+            "feedback":[
+                "You need to kiss me more, if you breath stank hug me",
+                "I like it but just not as much 🤷",
+                "Nuh really instantly,they give me some reassurance tho "
+            ]
         },
         {
             "No": "8",
-            "question": "What is a long-term goal I have?",
+            "question": "On what day did we have our first date?",
             "options": [
-                "Starting my own AI company",
-                "Becoming a game developer",
-                "Moving abroad"
+                "August 3rd",
+                "August 11rd",
+                "August 22th"
             ],
-            "correct": 1
+            "correct": 2,
+            "feedback":[
+                "Might Kunk Yuh",
+                "Yah mix it up",
+                "Might Fuck Yuh 🍆🍑"
+            ]
         },
         {
             "No": "9",
-            "question": "If I could only keep one thing from my childhood, what would it be?",
+            "question": "What is my main love language?",
             "options": [
-                "My first gaming console",
-                "A handwritten letter",
-                "A childhood toy"
+                "Quality Time",
+                "Physcial Touch",
+                "Acts of Service"
             ],
-            "correct": 1
+            "correct": 1,
+            "feedback":[
+                "These all are but only one is the main",
+                "COME TOUCH MEEEE",
+                "I like doing shit for you 😻, not the main tho"
+            ]
         },
         {
             "No": "10",
-            "question": "What is something I never want to change about myself?",
+            "question": "How do i usually react when im stressed or upset?",
             "options": [
-                "My curiosity",
-                "My sense of humor",
-                "My work ethic"
+                "Rant to you",
+                "Isolate myself",
+                "Cry about it"
             ],
-            "correct": 0
+            "correct": 1,
+            "feedback":[
+                "I would but i get quiet when im upset",
+                "I just need some alone time honestly",
+                "I aint no bitch nigga 💀"
+            ]
+        },
+        {
+            "No": "11",
+            "question": "Whats the one thing I'd absolutely NEVER tolerate in our relationship?",
+            "options": [
+                "Batman",
+                "Cheating (especially with batman)",
+                "Lying"
+            ],
+            "correct": 1,
+            "feedback":[
+                "This almost as bad i swaer",
+                "Imma put that nigga head on the shelf when i see him 🗿",
+                "Cant trust a lying ahh bitch 🤷"
+            ]
+        },
+        {
+            "No": "12",
+            "question": "Where is one place I've always wanted to travel to with you?",
+            "options": [
+                "Switzerland",
+                "Signapore",
+                "Japan"
+            ],
+            "correct": 2,
+            "feedback":[
+                "IDK",
+                "But seneter, im signaporian 💩",
+                "Honestly everybody wah guh atleast once 😭"
+            ]
+        },
+        {
+            "No": "13",
+            "question": "How many kids would do i want?",
+            "options": [
+                "1",
+                "3",
+                "2"
+            ],
+            "correct": 0,
+            "feedback":[
+                "Mi one baby girl 😽",
+                "ARE YOU CRAZY!?!?!",
+                "MAYYYYBEEE, if we THAT bored"
+            ]
+        },
+        {
+            "No": "14",
+            "question": "Whats is the best way to calm me when im angry?",
+            "options": [
+                "I dont get angry buruh",
+                "Food",
+                "Head"
+            ],
+            "correct": 2,
+            "feedback":[
+                "Its true nihha especially at you",
+                "This woulda been it",
+                "Speaking from experience cum dont even taste bad fr 🤷"
+            ]
+        },
+        {
+            "No": "15",
+            "question": "Just how much do i love you?",
+            "options": [
+                "In every possible life",
+                "Words cant describe",
+                "infinitly"
+            ],
+            "correct": 2,
+            "feedback":[
+                "Id love you even if you were a dog 🐕💓🥰",
+                "Its true they really cant 😍",
+                "I'll forever be your simp 😽😽💞😻😻"
+            ]
         }
     ]
 }
