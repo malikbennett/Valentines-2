@@ -1,5 +1,5 @@
 export default class QuestionManager {
-    currQuestion = 14;
+    currQuestion = 1;
     questions = [];
 
     constructor(questions, onLoadCallback) {
