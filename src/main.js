@@ -83,19 +83,19 @@ document.addEventListener("DOMContentLoaded", () => {
             duration: 1,
             ease: "step",
             onComplete: () => {
+                question.innerHTML = 'Will you be my Valentines?';
                 optionBtns[0].classList.add('hidden');
                 optionBtns[0].parentElement.classList.remove("grow");
                 optionBtns[1].innerHTML = "no...?";
                 optionBtns[2].innerHTML = "YESSS!!!";
-                question.innerHTML = 'Will you be my Valentines?';
                 questionNo.parentElement.classList.add("hidden");
+                feedBack.classList.add('hidden');
 
                 question.classList.remove("text-2xl");
                 question.classList.add("text-4xl", "sm:text-6xl", "lg:mb-12",
                     "text-main-400", "font-pacifico", "font-black");
                 questCard.classList.remove("px-10", "py-6", "sm:min-h-[50vh]", "shadow-2xl", "hidden");
                 questCard.classList.add("sm:max-w-[50%]", "p-6");
-                feedBack.classList.add('hidden');
                 tl.fromTo(questCard, {
                     scale: 1,
                 }, {
@@ -180,7 +180,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 }, 250);
             }
         });
-
 
         tl.to(questCard, {
             x: 4000,  // Move off-screen to the right
